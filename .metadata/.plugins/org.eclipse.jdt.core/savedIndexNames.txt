@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+D:\Android-Price-Compare\.metadata\.plugins\org.eclipse.jdt.core
+859717360.index
+4059194735.index
