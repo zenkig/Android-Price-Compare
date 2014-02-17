@@ -4,5 +4,7 @@
     <string name="app_name">Price_King</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="edit_message">Enter your search here</string>
+    <string name="button_send">Search</string>
 
 </resources>
