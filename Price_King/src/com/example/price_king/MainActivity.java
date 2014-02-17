@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-//changes by Kibrom
+//changes by Kibrom with other changes 
 public class MainActivity extends Activity {
 
     @Override
