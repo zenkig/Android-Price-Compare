@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.view.Menu;
 
 //changes by Kibrom with other changes 
+// I have added some changed,zenkig
 public class MainActivity extends Activity {
 
     @Override
