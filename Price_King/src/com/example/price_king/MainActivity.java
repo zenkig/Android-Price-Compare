@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.EditText;
 
 // Project Price King, first page. 
-// P. 1st
+// P. 1st 2014.02.18th
 public class MainActivity extends Activity {
 
     public final static String EXTRA_MESSAGE = "com.example.price_king.MESSAGE";
