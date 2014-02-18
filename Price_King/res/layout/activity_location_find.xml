@@ -21,8 +21,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/searchView1"
+        android:layout_alignLeft="@+id/textView1"
         android:layout_toLeftOf="@+id/searchView1"
         android:ems="10"
         android:hint="@string/edit_message_location" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:text="@string/gps_location"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView
+        android:id="@+id/listViewGPSlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/searchView1"
+        android:layout_below="@+id/textView1" >
+
+    </ListView>
 
 </RelativeLayout>

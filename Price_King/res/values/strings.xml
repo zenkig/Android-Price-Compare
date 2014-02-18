@@ -8,6 +8,7 @@
     <string name="button_send">Search</string>
     <string name="title_activity_location_find">LocationFindActivity</string>
     <string name="title_activity_about_page">AboutPageActivity</string>
-    <string name="edit_message_location">Input your Location for search</string>
-
+    <string name="edit_message_location">Search Location Name</string>
+    <string name="gps_location">GPS Location</string>
+    
 </resources>
