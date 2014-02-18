@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+edit_message_location<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">Price_King</string>
@@ -6,12 +6,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="edit_message">Enter your search here</string>
     <string name="button_send">Search</string>
-    <string name="title_activity_display_message">My Message</string>
     <string name="title_activity_location_find">LocationFindActivity</string>
-    <string name="title_aboutpage_list">Items</string>
-    <string name="title_aboutpage_detail">AboutPage Detail</string>
-    <string name="title_item_list">Items</string>
-    <string name="title_item_detail">Item Detail</string>
     <string name="title_activity_about_page">AboutPageActivity</string>
+    <string name="edit_message_location">Input your Location for search</string>
+    <string />
 
 </resources>
