@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- the files here are for creating names of features, don't forget to add names-->
+    <!-- the files here are for 
+    creating names of features, 
+    don't forget to add names-->
+    
     <string name="app_name">Price_King</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
