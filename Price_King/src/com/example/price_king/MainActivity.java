@@ -1,3 +1,4 @@
+
 package com.example.price_king;
 
 import android.app.Activity;
@@ -29,12 +30,22 @@ public class MainActivity extends Activity {
     }
     
     /** Called when the user clicks the Search button */
-    public void sendMessage(View view) {
+    /* 
+     *  public void sendMessage(View view) {
     	Intent intent = new Intent(this, DisplayMessageActivity.class);
     	EditText editText = (EditText) findViewById(R.id.edit_message);
     	String message = editText.getText().toString();
     	intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
+        
     }
+    */
+    
+    /** Called when the user clicks the Location button, on left of the MainActivity page */
+    public void showLocation(View view) {
+   // Do something in response to button
+      }
+
     
 }
+

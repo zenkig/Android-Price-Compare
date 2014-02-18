@@ -7,5 +7,11 @@
     <string name="edit_message">Enter your search here</string>
     <string name="button_send">Search</string>
     <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_location_find">LocationFindActivity</string>
+    <string name="title_aboutpage_list">Items</string>
+    <string name="title_aboutpage_detail">AboutPage Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_about_page">AboutPageActivity</string>
 
 </resources>

@@ -30,6 +30,47 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.price_king.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.price_king.LocationFindActivity"
+            android:label="@string/title_activity_location_find" >
+        </activity>
+        <activity
+            android:name="com.example.price_king.AboutPageListActivity"
+            android:label="@string/title_aboutpage_list" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.price_king.AboutPageDetailActivity"
+            android:label="@string/title_aboutpage_detail"
+            android:parentActivityName=".AboutPageListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AboutPageListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.price_king.ItemListActivity"
+            android:label="@string/title_item_list"
+            android:parentActivityName="com.example.price_king.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.price_king.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.price_king.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ItemListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ItemListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.price_king.AboutPageActivity"
+            android:label="@string/title_activity_about_page" >
+        </activity>
     </application>
 
 </manifest>
