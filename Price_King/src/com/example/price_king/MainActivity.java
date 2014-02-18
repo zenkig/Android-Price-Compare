@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
     public void showLocation(View view) {
    // Do something in response to button
       }
-
+    
     
 }
 
