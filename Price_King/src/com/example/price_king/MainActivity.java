@@ -5,10 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.EditText;
 
 // Project Price King, first page. 
 // P. 1st
 public class MainActivity extends Activity {
+
+    public final static String EXTRA_MESSAGE = "com.example.price_king.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,10 @@ public class MainActivity extends Activity {
     /** Called when the user clicks the Search button */
     public void sendMessage(View view) {
     	Intent intent = new Intent(this, DisplayMessageActivity.class);
+    	EditText editText = (EditText) findViewById(R.id.edit_message);
+    	String message = editText.getText().toString();
+    	intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
     }
     
 }
