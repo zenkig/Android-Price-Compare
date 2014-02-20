@@ -1,0 +1,9 @@
+INDEX VERSION 1.126+D:\Android-Price-Compare\price_king_new\.metadata\.plugins\org.eclipse.jdt.core
+4059194735.index
+477074942.index
+1050855573.index
+3394839886.index
+665901739.index
+3406391355.index
+4070146483.index
+380293150.index
