@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PriceComparator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search_location">Search Location</string>
+    <string name="title_activity_about_info">About PriceKing</string>
+    <string name="btnLocation">Kista</string>
+    <string name="Search_bar">Input your search here </string>
+    <string name="location_name">Kista</string>
+    
+
+</resources>

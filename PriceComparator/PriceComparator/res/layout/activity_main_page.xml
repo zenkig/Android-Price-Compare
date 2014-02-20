@@ -6,32 +6,34 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".MainPageActivity" >
 
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="29dp"
+        android:layout_alignLeft="@+id/searchView1"
         android:ems="10"
-        android:inputType="text" >
+        android:hint="@string/Search_bar" >
 
         <requestFocus />
     </EditText>
 
-    <Button
-        android:id="@+id/button1"
+    <SearchView
+        android:id="@+id/searchView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
-        android:layout_marginTop="34dp"
-        android:text="Search" 
-        android:onClick="search"
-        
-        />
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true" >
+    </SearchView>
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_toRightOf="@+id/editText1"
+        android:text="@string/location_name" />
 
 </RelativeLayout>
